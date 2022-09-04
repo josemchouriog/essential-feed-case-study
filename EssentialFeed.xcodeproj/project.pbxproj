@@ -13,6 +13,7 @@
 		433CE0E328C5501D00D62B69 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 433CE0D528C5501D00D62B69 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		433CE0EF28C5525000D62B69 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433CE0EE28C5525000D62B69 /* FeedItem.swift */; };
 		433CE0F128C5550500D62B69 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433CE0F028C5550500D62B69 /* FeedLoader.swift */; };
+		433CE0F628C557EA00D62B69 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433CE0F528C557EA00D62B69 /* RemoteFeedLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		433CE0E128C5501D00D62B69 /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		433CE0EE28C5525000D62B69 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		433CE0F028C5550500D62B69 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
+		433CE0F528C557EA00D62B69 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				433CE0E128C5501D00D62B69 /* EssentialFeedTests.swift */,
+				433CE0F528C557EA00D62B69 /* RemoteFeedLoaderTests.swift */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433CE0F628C557EA00D62B69 /* RemoteFeedLoaderTests.swift in Sources */,
 				433CE0E228C5501D00D62B69 /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,7 +418,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FKB4MCG6ND;
+				DEVELOPMENT_TEAM = Y6LAFF7PF9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ssei.com.ve.EssentialFeedTests;
@@ -430,7 +434,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FKB4MCG6ND;
+				DEVELOPMENT_TEAM = Y6LAFF7PF9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ssei.com.ve.EssentialFeedTests;
