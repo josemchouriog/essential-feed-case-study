@@ -56,6 +56,8 @@ DerivedData/
 *.mode2v3
 !default.mode2v3
 *.perspectivev3
+*.xcuserstate
+*.xcsettings
 !default.perspectivev3
 
 ## Obj-C/Swift specific
