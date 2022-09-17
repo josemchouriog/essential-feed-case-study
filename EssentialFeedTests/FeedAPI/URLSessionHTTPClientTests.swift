@@ -113,7 +113,7 @@ class URLSessionHTTPClientTests: XCTestCase {
 
         var receivedResult: HTTPClientResult!
         sut.get(from: anyURL()) { result in
-          receivedResult = result
+            receivedResult = result
             exp.fulfill()
         }
 
