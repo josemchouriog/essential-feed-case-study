@@ -28,6 +28,7 @@
 		4399DDC628F2FA2B00378C21 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399DDC528F2FA2B00378C21 /* FeedStore.swift */; };
 		4399DDC828F308C700378C21 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399DDC728F308C700378C21 /* RemoteFeedItem.swift */; };
 		4399DDCA28F3093200378C21 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399DDC928F3093200378C21 /* LocalFeedImage.swift */; };
+		4399DDCC28F30FA800378C21 /* LoadFeedFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399DDCB28F30FA800378C21 /* LoadFeedFromCacheUseCaseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		4399DDC528F2FA2B00378C21 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 		4399DDC728F308C700378C21 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 		4399DDC928F3093200378C21 /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
+		4399DDCB28F30FA800378C21 /* LoadFeedFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 				4399DDC228F2F97C00378C21 /* LocalFeedLoader.swift */,
 				4399DDC528F2FA2B00378C21 /* FeedStore.swift */,
 				4399DDC928F3093200378C21 /* LocalFeedImage.swift */,
+				4399DDCB28F30FA800378C21 /* LoadFeedFromCacheUseCaseTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				437AE01528D1E2BC0092CBAD /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				439840E228CD414000962F56 /* URLSessionHTTPClientTests.swift in Sources */,
 				4399DDC028F1E5CE00378C21 /* CacheFeedUseCaseTests.swift in Sources */,
+				4399DDCC28F30FA800378C21 /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
 				433CE0E228C5501D00D62B69 /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
