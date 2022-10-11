@@ -205,6 +205,7 @@
 			children = (
 				4399DDCD28F3113F00378C21 /* Helpers */,
 				4399DDBF28F1E5CE00378C21 /* CacheFeedUseCaseTests.swift */,
+				4399DDCB28F30FA800378C21 /* LoadFeedFromCacheUseCaseTests.swift */,
 				4399DDD028F43ADF00378C21 /* ValidateFeedCacheUseCaseTests.swift */,
 			);
 			path = "Feed Cache";
@@ -216,7 +217,6 @@
 				4399DDC228F2F97C00378C21 /* LocalFeedLoader.swift */,
 				4399DDC528F2FA2B00378C21 /* FeedStore.swift */,
 				4399DDC928F3093200378C21 /* LocalFeedImage.swift */,
-				4399DDCB28F30FA800378C21 /* LoadFeedFromCacheUseCaseTests.swift */,
 				43FB008C28F62895007268A3 /* FeedCachePolicy.swift */,
 			);
 			path = "Feed Cache";
