@@ -33,6 +33,7 @@
 		4399DDD128F43ADF00378C21 /* ValidateFeedCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399DDD028F43ADF00378C21 /* ValidateFeedCacheUseCaseTests.swift */; };
 		4399DDD328F445E200378C21 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399DDD228F445E200378C21 /* FeedCacheTestHelpers.swift */; };
 		4399DDD528F4474700378C21 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399DDD428F4474700378C21 /* SharedTestHelpers.swift */; };
+		43FB008D28F62895007268A3 /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB008C28F62895007268A3 /* FeedCachePolicy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		4399DDD028F43ADF00378C21 /* ValidateFeedCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateFeedCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		4399DDD228F445E200378C21 /* FeedCacheTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheTestHelpers.swift; sourceTree = "<group>"; };
 		4399DDD428F4474700378C21 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
+		43FB008C28F62895007268A3 /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				4399DDC528F2FA2B00378C21 /* FeedStore.swift */,
 				4399DDC928F3093200378C21 /* LocalFeedImage.swift */,
 				4399DDCB28F30FA800378C21 /* LoadFeedFromCacheUseCaseTests.swift */,
+				43FB008C28F62895007268A3 /* FeedCachePolicy.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				433CE0F128C5550500D62B69 /* FeedLoader.swift in Sources */,
 				439840DD28CCF1FE00962F56 /* FeedItemsMapper.swift in Sources */,
 				4399DDC828F308C700378C21 /* RemoteFeedItem.swift in Sources */,
+				43FB008D28F62895007268A3 /* FeedCachePolicy.swift in Sources */,
 				433CE0EF28C5525000D62B69 /* FeedImage.swift in Sources */,
 				4399DDC328F2F97C00378C21 /* LocalFeedLoader.swift in Sources */,
 				433CE0D728C5501D00D62B69 /* EssentialFeed.docc in Sources */,
