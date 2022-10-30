@@ -226,6 +226,7 @@
 		4397845B290EF44200EA4E73 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				4397845D290EF4EE00EA4E73 /* Codable */,
 				4397845C290EF4BA00EA4E73 /* Coredata */,
 			);
 			path = Infrastructure;
@@ -234,10 +235,17 @@
 		4397845C290EF4BA00EA4E73 /* Coredata */ = {
 			isa = PBXGroup;
 			children = (
-				43978423290D76B800EA4E73 /* CodableFeedStore.swift */,
 				43978435290DC32500EA4E73 /* CoreDataFeedStore.swift */,
 			);
 			path = Coredata;
+			sourceTree = "<group>";
+		};
+		4397845D290EF4EE00EA4E73 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				43978423290D76B800EA4E73 /* CodableFeedStore.swift */,
+			);
+			path = Codable;
 			sourceTree = "<group>";
 		};
 		439840DE28CD026D00962F56 /* Feed API */ = {
